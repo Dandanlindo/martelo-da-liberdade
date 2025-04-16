@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo Incrível - Construct 3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🎮 Meu Jogo</div>
+    <ul class="nav-links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="section">
+    <h1>Jogue Agora!</h1>
+    <div class="game-container">
+      <iframe 
+        id="game-frame"
+        src="meu-jogo/index.html"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <button id="fullscreen-btn">Tela cheia</button>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>Sobre o Jogo</h2>
+    <p>
+      Este é um jogo feito com Construct 3 que desafia sua habilidade e reflexos!
+      Inspirado em clássicos dos anos 2000, traz uma experiência nostálgica com gráficos modernos.
+    </p>
+    <p>
+      Desenvolvido com dedicação por um amante de jogos e tecnologia.
+    </p>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Entre em Contato</h2>
+    <form id="contact-form">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Meu Jogo no Construct 3 | Feito com ❤️</p>
+    <div class="socials">
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
